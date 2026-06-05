@@ -11,6 +11,7 @@ const I18N = {
     "hero.role": "Desarrollador de Software Junior · Analista de QA",
     "hero.lead": "Desarrollo web y móvil con foco en calidad. Construyo software y, además, me aseguro de que funcione — automatizando las pruebas que lo respaldan.",
     "hero.cta1": "Contactame",
+    "hero.meta.work": "💼 Desarrollador en LCT Global",
     "hero.meta.lang": "🗣️ Inglés B2",
 
     "about.kicker": "Sobre mí",
@@ -37,6 +38,9 @@ const I18N = {
 
     "exp.kicker": "Trayectoria",
     "exp.title": "Experiencia",
+    "exp.lct.role": "Desarrollador de Software",
+    "exp.lct.date": "Junio 2026 – Presente",
+    "exp.lct.l1": "Desarrollo de software en una empresa de TI especializada en soluciones a medida para web, móvil y escritorio.",
     "exp.kylo.role": "Desarrollador de Software Móvil & QA",
     "exp.kylo.l1": "Desarrollé una app iOS de alquiler de vehículos en Swift, optimizando la experiencia de usuario en dispositivos Apple.",
     "exp.kylo.l2": "Implementé el framework de pruebas automatizadas con Java, Selenium y Cucumber, reduciendo errores críticos antes del despliegue.",
@@ -55,7 +59,7 @@ const I18N = {
 
     "contact.kicker": "Contacto",
     "contact.title": "¿Trabajamos juntos?",
-    "contact.lead": "Estoy buscando integrarme a un equipo tecnológico para aportar en el ciclo de desarrollo y de pruebas. Escribime.",
+    "contact.lead": "Siempre abierto a colaborar, aprender y sumar a buenos equipos. Si querés hablar de un proyecto o una oportunidad, escribime.",
 
     "footer.built": "Hecho a mano con HTML & CSS",
   },
@@ -68,6 +72,7 @@ const I18N = {
     "hero.role": "Junior Software Developer · QA Analyst",
     "hero.lead": "Web and mobile development with a focus on quality. I build software — and I make sure it works, by automating the tests that back it up.",
     "hero.cta1": "Get in touch",
+    "hero.meta.work": "💼 Developer at LCT Global",
     "hero.meta.lang": "🗣️ English B2",
 
     "about.kicker": "About me",
@@ -94,6 +99,9 @@ const I18N = {
 
     "exp.kicker": "Path",
     "exp.title": "Experience",
+    "exp.lct.role": "Software Developer",
+    "exp.lct.date": "June 2026 – Present",
+    "exp.lct.l1": "Software development at an IT company specialized in custom solutions for web, mobile and desktop.",
     "exp.kylo.role": "Mobile Software Developer & QA",
     "exp.kylo.l1": "Built an iOS car-rental app in Swift, optimizing the user experience on Apple devices.",
     "exp.kylo.l2": "Implemented the test automation framework with Java, Selenium and Cucumber, reducing critical bugs before deployment.",
@@ -112,7 +120,7 @@ const I18N = {
 
     "contact.kicker": "Contact",
     "contact.title": "Let's work together?",
-    "contact.lead": "I'm looking to join a tech team and contribute across the development and testing cycle. Drop me a line.",
+    "contact.lead": "Always open to collaborating, learning and adding value to good teams. If you'd like to talk about a project or an opportunity, drop me a line.",
 
     "footer.built": "Hand-built with HTML & CSS",
   },
