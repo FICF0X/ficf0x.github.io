@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafael Linares — Desarrollador de Software Junior & QA</title>
+  <meta name="description" content="Rafael Leonardo Linares Villarreal — Desarrollador de Software Junior y Analista de QA. iOS (Swift), Front-end y automatización de pruebas. Lima, Perú." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%238b7cff'/><text x='50' y='68' font-size='52' font-family='Arial' font-weight='bold' fill='%230a0a0f' text-anchor='middle'>RL</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#" class="brand"><span class="mark">RL</span> Rafael Linares</a>
+      <nav class="nav">
+        <a href="#about" data-i18n="nav.about">Sobre mí</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Proyectos</a>
+        <a href="#experience" data-i18n="nav.experience">Experiencia</a>
+        <a href="#contact" data-i18n="nav.contact">Contacto</a>
+      </nav>
+      <button class="lang-toggle" id="lang-toggle" type="button">EN</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="avatar">RL</div>
+      <span class="eyebrow" data-i18n="hero.eyebrow">📍 San Miguel, Lima · Perú 🇵🇪</span>
+      <h1>Rafael <span class="accent">Linares</span></h1>
+      <p class="role" data-i18n="hero.role">Desarrollador de Software Junior · Analista de QA</p>
+      <p class="lead" data-i18n="hero.lead">Desarrollo web y móvil con foco en calidad. Construyo software y, además, me aseguro de que funcione — automatizando las pruebas que lo respaldan.</p>
+      <div class="cta">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Contactame</a>
+        <a href="https://github.com/FICF0X" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+      </div>
+      <div class="meta">
+        <span data-i18n="hero.meta.lang">🗣️ Inglés B2</span>
+        <span>📧 rafitolinares12@hotmail.com</span>
+        <span>📱 923 973 663</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="block about" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="about.kicker">Sobre mí</span>
+        <h2 data-i18n="about.title">Dev y QA en una sola persona</h2>
+      </div>
+      <p data-i18n="about.p1">Egresado de Computación e Informática (Cibertec) con especialización en desarrollo de software web y móvil. Tengo experiencia práctica en Front-end (JS/HTML/CSS) y aplicaciones iOS (Swift), complementada con sólidos conocimientos en automatización de pruebas usando Selenium y Cucumber.</p>
+      <p data-i18n="about.p2">Me gusta entender cómo funcionan las herramientas por dentro — por eso construyo cosas desde cero en vez de solo consumir frameworks. Busco integrarme a un equipo donde pueda aportar tanto en el desarrollo como en la calidad del software.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="block" id="skills">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="skills.kicker">Stack</span>
+        <h2 data-i18n="skills.title">Habilidades técnicas</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3 data-i18n="skills.languages">Lenguajes</h3>
+          <div class="tags">
+            <span class="tag">Swift</span><span class="tag">Java</span><span class="tag">C# (.NET)</span><span class="tag">JavaScript</span><span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.webmobile">Web & Mobile</h3>
+          <div class="tags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">iOS</span><span class="tag">Android</span><span class="tag" data-i18n="skills.webservices">Web Services</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.qa">QA & Testing</h3>
+          <div class="tags">
+            <span class="tag">Selenium</span><span class="tag">Cucumber</span><span class="tag">JUnit</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3 data-i18n="skills.databases">Bases de datos</h3>
+          <div class="tags">
+            <span class="tag">SQL Server</span><span class="tag">MySQL</span><span class="tag">NoSQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="block" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="projects.kicker">Trabajo</span>
+        <h2 data-i18n="projects.title">Proyectos</h2>
+      </div>
+      <div class="projects">
+        <div class="project featured">
+          <div class="ptop">
+            <span class="pico">⏱</span>
+            <h3>Focus-Driven Testing</h3>
+            <span class="star" data-i18n="projects.fdt.badge">Destacado</span>
+          </div>
+          <p data-i18n="projects.fdt.desc">Un test-runner sin dependencias que construí desde cero para entender cómo funcionan Jest y Vitest por dentro. Incluye CLI propia, métricas y un sitio de documentación con internacionalización ES/EN hecha a mano.</p>
+          <div class="ptags">
+            <span class="tag">JavaScript</span><span class="tag">Node.js (ESM)</span><span class="tag">Zero-deps</span><span class="tag">i18n</span>
+          </div>
+          <div class="plinks">
+            <a href="https://ficf0x.github.io/focus-driven-testing/" target="_blank" rel="noopener" data-i18n="projects.demo">Demo en vivo ↗</a>
+            <a href="https://github.com/FICF0X/focus-driven-testing" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="ptop">
+            <span class="pico">🚗</span>
+            <h3>KyloMotors</h3>
+          </div>
+          <p data-i18n="projects.kylo.desc">App iOS para alquiler de vehículos desarrollada en Swift, optimizando la experiencia en dispositivos Apple. Implementé el framework de pruebas automatizadas con Java, Selenium y Cucumber, reduciendo errores críticos antes del despliegue.</p>
+          <div class="ptags">
+            <span class="tag">Swift</span><span class="tag">iOS</span><span class="tag">Selenium</span><span class="tag">Cucumber</span>
+          </div>
+          <div class="plinks">
+            <a href="https://github.com/FICF0X/KyloMotorsApp" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="ptop">
+            <span class="pico">🌐</span>
+            <h3>Colegio Markham</h3>
+          </div>
+          <p data-i18n="projects.markham.desc">Lideré la maquetación y el desarrollo integral de la interfaz web del Colegio Markham, asegurando un diseño responsivo y funcional, bajo estándares modernos de Front-end. Práctica en EBP Consulting.</p>
+          <div class="ptags">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag" data-i18n="projects.markham.tag">Responsive</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="block" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="exp.kicker">Trayectoria</span>
+        <h2 data-i18n="exp.title">Experiencia</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-role" data-i18n="exp.kylo.role">Desarrollador de Software Móvil & QA</div>
+          <div class="tl-org">KyloMotors</div>
+          <ul>
+            <li data-i18n="exp.kylo.l1">Desarrollé una app iOS de alquiler de vehículos en Swift, optimizando la experiencia de usuario en dispositivos Apple.</li>
+            <li data-i18n="exp.kylo.l2">Implementé el framework de pruebas automatizadas con Java, Selenium y Cucumber, reduciendo errores críticos antes del despliegue.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role" data-i18n="exp.ebp.role">Practicante de Desarrollo Web (Front-end)</div>
+          <div class="tl-org">EBP Consulting</div>
+          <ul>
+            <li data-i18n="exp.ebp.l1">Lideré la maquetación y el desarrollo integral de la web del Colegio Markham, con diseño responsivo y funcional.</li>
+            <li data-i18n="exp.ebp.l2">Colaboré en diversos proyectos corporativos bajo estándares modernos de Front-end.</li>
+          </ul>
+        </div>
+        <div class="tl-item">
+          <div class="tl-role" data-i18n="exp.other.role">Otra experiencia profesional</div>
+          <div class="tl-org">APEC · MDI / Jimavi Corp</div>
+          <ul>
+            <li data-i18n="exp.other.l1">Asistente Logístico en APEC (Nov 2024): gestión de protocolos internacionales y asistencia a dignatarios.</li>
+            <li data-i18n="exp.other.l2">Ventas y anfitrionaje: atención al cliente y resolución de conflictos en eventos masivos.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="block" id="education">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker" data-i18n="edu.kicker">Formación</span>
+        <h2 data-i18n="edu.title">Educación e idiomas</h2>
+      </div>
+      <div class="cols">
+        <div class="edu-card">
+          <h3 data-i18n="edu.degree">Profesional Técnico en Computación e Informática</h3>
+          <p class="sub">Cibertec · 2023 – 2025</p>
+        </div>
+        <div class="edu-card">
+          <h3 data-i18n="edu.lang">Inglés — Nivel B2</h3>
+          <p class="sub" data-i18n="edu.lang.sub">Intermedio-Avanzado</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="block contact" id="contact">
+    <div class="container">
+      <div class="section-head" style="text-align:center;">
+        <span class="kicker" data-i18n="contact.kicker">Contacto</span>
+        <h2 data-i18n="contact.title">¿Trabajamos juntos?</h2>
+      </div>
+      <p class="lead" data-i18n="contact.lead">Estoy buscando integrarme a un equipo tecnológico para aportar en el ciclo de desarrollo y de pruebas. Escribime.</p>
+      <div class="contact-links">
+        <a href="mailto:rafitolinares12@hotmail.com" class="btn btn-primary">📧 rafitolinares12@hotmail.com</a>
+        <a href="https://github.com/FICF0X" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Rafael Leonardo Linares Villarreal · <span data-i18n="footer.built">Hecho a mano con HTML & CSS</span></p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
