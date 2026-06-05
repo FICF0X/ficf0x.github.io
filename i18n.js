@@ -10,7 +10,7 @@ const I18N = {
     "hero.eyebrow": "📍 San Miguel, Lima · Perú 🇵🇪",
     "hero.role": "Desarrollador de Software Junior · Analista de QA",
     "hero.lead": "Desarrollo web y móvil con foco en calidad. Construyo software y, además, me aseguro de que funcione — automatizando las pruebas que lo respaldan.",
-    "hero.cta1": "Contactame",
+    "hero.cta1": "Contáctame",
     "hero.meta.work": "💼 Desarrollador en LCT Global",
     "hero.meta.lang": "🗣️ Inglés B2",
 
@@ -33,7 +33,7 @@ const I18N = {
     "projects.fdt.desc": "Un test-runner sin dependencias que construí desde cero para entender cómo funcionan Jest y Vitest por dentro. Incluye CLI propia, métricas y un sitio de documentación con internacionalización ES/EN hecha a mano.",
     "projects.demo": "Demo en vivo ↗",
     "projects.kylo.desc": "App iOS para alquiler de vehículos desarrollada en Swift, optimizando la experiencia en dispositivos Apple. Implementé el framework de pruebas automatizadas con Java, Selenium y Cucumber, reduciendo errores críticos antes del despliegue.",
-    "projects.markham.desc": "Lideré la maquetación y el desarrollo integral de la interfaz web del Colegio Markham, asegurando un diseño responsivo y funcional, bajo estándares modernos de Front-end. Práctica en EBP Consulting.",
+    "projects.markham.desc": "Formé parte del equipo que maquetó y desarrolló la interfaz web del Colegio Markham, con un diseño responsivo y funcional bajo estándares modernos de Front-end. Práctica en EBP Consulting.",
     "projects.markham.tag": "Responsive",
 
     "exp.kicker": "Trayectoria",
@@ -45,7 +45,7 @@ const I18N = {
     "exp.kylo.l1": "Desarrollé una app iOS de alquiler de vehículos en Swift, optimizando la experiencia de usuario en dispositivos Apple.",
     "exp.kylo.l2": "Implementé el framework de pruebas automatizadas con Java, Selenium y Cucumber, reduciendo errores críticos antes del despliegue.",
     "exp.ebp.role": "Practicante de Desarrollo Web (Front-end)",
-    "exp.ebp.l1": "Lideré la maquetación y el desarrollo integral de la web del Colegio Markham, con diseño responsivo y funcional.",
+    "exp.ebp.l1": "Formé parte del equipo que maquetó y desarrolló la web del Colegio Markham, con diseño responsivo y funcional.",
     "exp.ebp.l2": "Colaboré en diversos proyectos corporativos bajo estándares modernos de Front-end.",
     "exp.other.role": "Otra experiencia profesional",
     "exp.other.l1": "Asistente Logístico en APEC (Nov 2024): gestión de protocolos internacionales y asistencia a dignatarios.",
@@ -59,7 +59,7 @@ const I18N = {
 
     "contact.kicker": "Contacto",
     "contact.title": "¿Trabajamos juntos?",
-    "contact.lead": "Siempre abierto a colaborar, aprender y sumar a buenos equipos. Si querés hablar de un proyecto o una oportunidad, escribime.",
+    "contact.lead": "Siempre abierto a colaborar, aprender y sumar a buenos equipos. Si quieres hablar de un proyecto o una oportunidad, escríbeme.",
 
     "footer.built": "Hecho a mano con HTML & CSS",
   },
@@ -94,7 +94,7 @@ const I18N = {
     "projects.fdt.desc": "A zero-dependency test runner I built from scratch to understand how Jest and Vitest work internally. It includes its own CLI, metrics, and a documentation site with hand-built ES/EN internationalization.",
     "projects.demo": "Live demo ↗",
     "projects.kylo.desc": "An iOS car-rental app built in Swift, optimized for the experience on Apple devices. I implemented the test automation framework with Java, Selenium and Cucumber, reducing critical bugs before deployment.",
-    "projects.markham.desc": "I led the markup and end-to-end development of the Markham School web interface, delivering a responsive and functional design under modern Front-end standards. Internship at EBP Consulting.",
+    "projects.markham.desc": "I was part of the team that built the Markham School web interface, delivering a responsive and functional design under modern Front-end standards. Internship at EBP Consulting.",
     "projects.markham.tag": "Responsive",
 
     "exp.kicker": "Path",
@@ -106,7 +106,7 @@ const I18N = {
     "exp.kylo.l1": "Built an iOS car-rental app in Swift, optimizing the user experience on Apple devices.",
     "exp.kylo.l2": "Implemented the test automation framework with Java, Selenium and Cucumber, reducing critical bugs before deployment.",
     "exp.ebp.role": "Web Development Intern (Front-end)",
-    "exp.ebp.l1": "Led the markup and full development of the Markham School website, with a responsive and functional design.",
+    "exp.ebp.l1": "Was part of the team that built the Markham School website, with a responsive and functional design.",
     "exp.ebp.l2": "Collaborated on various corporate projects under modern Front-end standards.",
     "exp.other.role": "Other professional experience",
     "exp.other.l1": "Logistics Assistant at APEC (Nov 2024): managing international protocols and assisting dignitaries.",
