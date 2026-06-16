@@ -29,6 +29,8 @@ const I18N = {
 
     "projects.kicker": "Trabajo",
     "projects.title": "Proyectos",
+    "projects.comercial.badge": "Destacado",
+    "projects.comercial.desc": "Sistema comercial full-stack con el flujo completo de inventario: compras, ingreso de mercadería, facturación (IGV) y despacho. Control de stock en tiempo real, operaciones atómicas vía RPC de Postgres y seguridad por capas (RLS). Acceso demo: admin@gmail.com / admin123.",
     "projects.fdt.badge": "Destacado",
     "projects.fdt.desc": "Un test-runner sin dependencias que construí desde cero para entender cómo funcionan Jest y Vitest por dentro. Incluye CLI propia, métricas y un sitio de documentación con internacionalización ES/EN hecha a mano.",
     "projects.demo": "Demo en vivo ↗",
@@ -91,6 +93,8 @@ const I18N = {
 
     "projects.kicker": "Work",
     "projects.title": "Projects",
+    "projects.comercial.badge": "Featured",
+    "projects.comercial.desc": "Full-stack commercial system covering the complete inventory flow: purchasing, goods receipt, invoicing (VAT) and dispatch. Real-time stock control, atomic operations via Postgres RPCs and layered security (RLS). Demo login: admin@gmail.com / admin123.",
     "projects.fdt.badge": "Featured",
     "projects.fdt.desc": "A zero-dependency test runner I built from scratch to understand how Jest and Vitest work internally. It includes its own CLI, metrics, and a documentation site with hand-built ES/EN internationalization.",
     "projects.demo": "Live demo ↗",
